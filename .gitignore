@@ -1,0 +1,55 @@
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+
+# Logs
+*.log
+
+# IDE specific files (e.g., GoLand, VSCode)
+.idea/
+.vscode/
+
+# Dependency directories
+vendor/
+**/node_modules/
+
+# Built executable binary
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules cache
+/pkg/mod/
+
+# Gin specific
+/tmp/
+web/dist/
+
+# General
+*.DS_Store
+Thumbs.db
+
+# Go build cache
+# Comment the following line if you are using Go modules
+/bin/
+/pkg/
+/src/
+
+# environment files
+.env
